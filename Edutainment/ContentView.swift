@@ -19,7 +19,7 @@ struct ContentView: View {
         VStack(spacing: 30) {
             if !animals.isEmpty {
 
-                Text("Question n°\(questionNumber)/12")
+                Text("Question n°\(questionNumber)")
                     .font(.largeTitle)
 
                 Text("What is this animal ?")
@@ -37,10 +37,8 @@ struct ContentView: View {
 
                 Text("Score: \(score)")
 
-                if questionNumber != 12 {
-                    BlueButton(name: "Validate") {
-                        checkAnswer(for: answer.lowercased())
-                    }
+                BlueButton(name: "Validate") {
+                    checkAnswer(for: answer.lowercased())
                 }
             }
         }
@@ -52,10 +50,6 @@ struct ContentView: View {
     func checkAnswer(for animal: String) {
         if animal == animals[idxAnimal] {
             score += 1
-        }
-        
-        if questionNumber == 12 {
-            return
         }
 
         questionNumber += 1
