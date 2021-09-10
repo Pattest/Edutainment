@@ -6,6 +6,8 @@
 
 Second challenge project of [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 
+In this project what is the animal in the displayed image (12 questions)
+
 ## Development guidelines
 
 ### Scope

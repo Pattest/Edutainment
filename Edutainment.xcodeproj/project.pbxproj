@@ -13,6 +13,7 @@
 		2730D5AC26E648740003C768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2730D5AB26E648740003C768 /* Preview Assets.xcassets */; };
 		2730D5B426E6490C0003C768 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2730D5B326E6490C0003C768 /* Readme.md */; };
 		2730D5B626E667D40003C768 /* animals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2730D5B526E667D40003C768 /* animals.txt */; };
+		2738948226EB652B001DC5A7 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738948126EB652B001DC5A7 /* BlueButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2730D5AD26E648740003C768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2730D5B326E6490C0003C768 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		2730D5B526E667D40003C768 /* animals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = animals.txt; sourceTree = "<group>"; };
+		2738948126EB652B001DC5A7 /* BlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,13 @@
 		2730D5A326E648700003C768 /* Edutainment */ = {
 			isa = PBXGroup;
 			children = (
-				2730D5B326E6490C0003C768 /* Readme.md */,
-				2730D5B526E667D40003C768 /* animals.txt */,
 				2730D5A426E648700003C768 /* EdutainmentApp.swift */,
 				2730D5A626E648700003C768 /* ContentView.swift */,
+				2738948126EB652B001DC5A7 /* BlueButton.swift */,
+				2730D5B526E667D40003C768 /* animals.txt */,
 				2730D5A826E648740003C768 /* Assets.xcassets */,
 				2730D5AD26E648740003C768 /* Info.plist */,
+				2730D5B326E6490C0003C768 /* Readme.md */,
 				2730D5AA26E648740003C768 /* Preview Content */,
 			);
 			path = Edutainment;
@@ -148,6 +151,7 @@
 			files = (
 				2730D5A726E648700003C768 /* ContentView.swift in Sources */,
 				2730D5A526E648700003C768 /* EdutainmentApp.swift in Sources */,
+				2738948226EB652B001DC5A7 /* BlueButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
